@@ -11,6 +11,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const modalBtn = document.querySelector('.get_bonus');
 
     spinnerBtn.addEventListener('click', (e) => {    
+        if (!spinner.classList.contains('spinning')) {
+            e.preventDefault();
+        }
+
         spinner.classList.add('spinning');
         
         setTimeout(() => { 
