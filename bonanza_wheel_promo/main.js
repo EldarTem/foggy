@@ -1,7 +1,4 @@
-
-alert(123);
-
-console.log(5 + 6);
+console.log(6 + 6);
 
 document.addEventListener("DOMContentLoaded", () => {
 
